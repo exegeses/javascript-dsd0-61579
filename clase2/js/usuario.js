@@ -5,4 +5,9 @@
 */
 let nombre = prompt('Ingrese su nombre');
 
-document.write( nombre );
+//document.write( nombre );
+//ubicamos el span "txt" dentro del DOM
+const txt =  document.getElementById('txt');
+
+//imprimimos en el span
+txt.innerText = nombre;
