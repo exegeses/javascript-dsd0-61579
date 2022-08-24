@@ -39,3 +39,12 @@ nav{
         background-color: #3c3c3c;
         color: #fff; 
     }
+
+#caja{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(1, 216, 191);
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px #999;
+    padding: 24px;
+}

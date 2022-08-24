@@ -32,7 +32,7 @@ else if ( nDiaSemana == 4 ){
 else if ( nDiaSemana == 5 ){
     diaSemana = 'Viernes';
 }
-else if ( nDiaSemana == 6 ){
+else {
     diaSemana = 'Sábado';
 }
 
