@@ -9,7 +9,7 @@ const caja = document.getElementById('caja');
  */
 
 //declaración
-function purpleBox()
+/*function purpleBox()
 {
     caja.style.backgroundColor = 'purple';
     caja.innerText = 'Púrpura';
@@ -19,5 +19,11 @@ function greenBox()
 {
     caja.style.backgroundColor = '#0a2';
     caja.innerText = 'Verde';
+    caja.style.color = '#fff';
+}*/
+function colorear( color, nombreColor )
+{
+    caja.style.backgroundColor = color;
+    caja.innerText = nombreColor;
     caja.style.color = '#fff';
 }
