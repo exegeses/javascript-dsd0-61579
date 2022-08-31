@@ -48,3 +48,16 @@ nav{
     box-shadow: 0px 0px 5px #999;
     padding: 24px;
 }
+
+#sol{
+    margin-top: 32px;
+}
+    #sol img{
+        width: 256px;
+    }
+
+#cuerpo{
+    background-image: url(../imgs/github.svg);
+    background-repeat: no-repeat;
+    background-position: center 200px;
+}
