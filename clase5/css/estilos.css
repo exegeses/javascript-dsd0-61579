@@ -61,3 +61,16 @@ nav{
     background-repeat: no-repeat;
     background-position: center 200px;
 }
+
+
+.lista{
+    list-style: none;
+}
+.lista li{
+    padding: 8px 0px;
+    transition: .3s;
+}
+.lista li:hover{
+    background-color: rgb(255, 236, 210);
+    font-size: 1.3em;
+}
